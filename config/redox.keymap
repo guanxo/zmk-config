@@ -34,7 +34,7 @@
             bindings = <
    &kp ESC   &kp N1   &kp N2   &kp N3 &kp N4   &kp N5                                        &kp N6    &kp N7 &kp N8    &kp N9   &kp N0   &kp QUESTION
    &kp TAB   &kp SQT    &kp COMMA    &kp LESS_THAN  &kp GREATER_THAN    &kp CARET  &kp LPAR            &kp RPAR  &kp SLASH  &kp RBKT  &kp LEFT_BRACKET     &kp RIGHT_BRACKET    &kp KP_MULTIPLY    &kp MINUS
-   &kp LSHFT &kp A    &kp O    &kp SQT  &kp DOUBLE_QUOTES    &kp I  &kp RET                     &kp RET  &kp EXCL   &kp RPAR  &kp LPAR   &kp LPAR    &kp BSLH &kp SQT
+   &kp LSHFT &kp A    &kp O    &kp MINUS  &kp AT_SIGN    &kp LBRC  &kp RET                     &kp RET  &kp EXCL   &kp RPAR  &kp ASTERISK   &kp LPAR    &kp BSLH &kp SQT
    &kp LCTRL &kp SEMI    &kp Q    &kp J  &kp K    &kp X  &kp PG_UP &kp PG_DN &kp HOME &kp END   &kp UNDER  &mt QUESTION KP_MINUS  &kp LBRC &kp LBRC  &kp LESS_THAN &mt RSHFT RET
    &kp LCTRL &kp LALT &kp LGUI &mo 3      &mo LOWER    &mo LOWER     &tog DEFAULT &kp DEL  &kp BKSP       &kp SPACE      &kp LEFT  &kp DOWN &kp UP   &kp RIGHT
             >;
@@ -43,7 +43,7 @@
         raise_layer {
             bindings = <
    &kp ESC   &kp N1   &kp N2   &kp N3 &kp N4   &kp N5                                        &kp N6    &kp N7 &kp N8    &kp N9   &kp N0   &kp QUESTION
-   &kp TAB   &kp AT_SIGN    &kp DOLLAR    &kp ASTERISK  &kp PIPE    &kp Y  &kp LPAR                     &kp RPAR  &kp TILDE     &kp G  &kp C     &kp R    &kp L    &kp MINUS
+   &kp TAB   &kp AT_SIGN    &kp DOLLAR    &kp NUBS  &kp PIPE    &kp LBRC  &kp LPAR                     &kp RPAR  &kp TILDE     &kp G  &kp C     &kp R    &kp L    &kp MINUS
    &kp LSHFT &kp HASH    &kp PERCENT    &kp SLASH  &kp NUBS    &kp SEMICOLON  &kp RET                     &kp RET  &kp NUHS     &kp H  &kp T     &kp N    &kp S &kp SQT
    &kp LCTRL &kp POUND    &kp AMPERSAND    &kp QMARK  &kp SEMI    &kp PERIOD  &kp PG_UP &kp PG_DN &kp HOME &kp END   &kp TILDE2     &kp M  &kp W &kp V  &kp Z &mt RSHFT RET
    &kp LCTRL &kp LALT &kp LGUI &mo 3      &mo LOWER    &mo LOWER     &mo LOWER &kp DEL  &kp BKSP       &kp SPACE      &kp LEFT  &kp DOWN &kp UP   &kp RIGHT
