@@ -31,12 +31,37 @@
         combo_tab {
             timeout-ms = <50>;
             key-positions = <29 30>;
-            bindings = <&kp DEL>;
+            bindings = <&kp TAB>;
         };
         combo_del {
             timeout-ms = <50>;
             key-positions = <28 29>;
             bindings = <&kp LS(TAB)>;
+        };
+        combo_undo {
+            timeout-ms = <50>;
+            key-positions = <51 52>;
+            bindings = <&kp LC(Z)>;
+        };
+        combo_redo {
+            timeout-ms = <50>;
+            key-positions = <52 53>;
+            bindings = <&kp LC(Y)>;
+        };
+        combo_copy {
+            timeout-ms = <50>;
+            key-positions = <42 43>;
+            bindings = <&kp LC(C)>;
+        };
+        combo_paste {
+            timeout-ms = <50>;
+            key-positions = <43 44>;
+            bindings = <&kp LC(P)>;
+        };
+        combo_save {
+            timeout-ms = <50>;
+            key-positions = <37 38>;
+            bindings = <&kp LC(S)>;
         };
     };
 };
