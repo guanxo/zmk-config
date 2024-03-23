@@ -15,15 +15,21 @@
 #define RAISE 2
 #define ADJUST 3
 
-#define COMBO(NAME, BINDINGS, KEYPOS)
-  combo_##NAME {
-    timeout-ms = <50>;
-    bindings = <BINDINGS>;
-    key-positions = <KEYPOS>;
-    layers = <0>;
-  };
-
-
+/ {
+    combos {
+        compatible = "zmk,combos";
+        combo_ret {
+            timeout-ms = <50>;
+            key-positions = <35 36>;
+            bindings = <&kp RET>;
+        };
+        combo_del {
+            timeout-ms = <50>;
+            key-positions = <36 37>;
+            bindings = <&kp DEL>;
+        };
+    };
+};
 
 / {
     combos {
