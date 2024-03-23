@@ -32,12 +32,6 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-        COMBO(enter, &kp RET, 35 36)
-        COMBO(suprimir, &kp DEL, 36 37)
-    };
-
     keymap {
         compatible =  "zmk,keymap" ;
 
