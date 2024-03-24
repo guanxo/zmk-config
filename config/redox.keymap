@@ -21,22 +21,22 @@
         combo_ret {
             timeout-ms = <30>;
             key-positions = <35 36>;
-            bindings = <&kp RET>;
+            bindings = <&kp BKSP>;
         };
         combo_backspace {
             timeout-ms = <50>;
             key-positions = <36 37>;
-            bindings = <&kp BKSP>;
+            bindings = <&kp RET>;
         };
         combo_tab {
             timeout-ms = <30>;
             key-positions = <29 30>;
-            bindings = <&kp TAB>;
+            bindings = <&kp LS(TAB)>;
         };
         combo_rev_tab {
             timeout-ms = <30>;
             key-positions = <28 29>;
-            bindings = <&kp LS(TAB)>;
+            bindings = <&kp TAB>;
         };
         combo_undo {
             timeout-ms = <50>;
