@@ -19,7 +19,7 @@
     combos {
         compatible = "zmk,combos";
         combo_ret {
-            timeout-ms = <100>;
+            timeout-ms = <0>;
             key-positions = <35 36>;
             bindings = <&kp BKSP>;
         };
