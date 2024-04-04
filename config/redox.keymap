@@ -18,13 +18,13 @@
 / {
     combos {
         compatible = "zmk,combos";
-        combo_ret {
-            timeout-ms = <1>;
+        combo_backspace {
+            timeout-ms = <30>;
             key-positions = <35 36>;
             bindings = <&kp BKSP>;
         };
-        combo_backspace {
-            timeout-ms = <50>;
+        combo_ret {
+            timeout-ms = <40>;
             key-positions = <36 37>;
             bindings = <&kp RET>;
         };
