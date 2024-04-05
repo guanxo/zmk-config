@@ -24,7 +24,7 @@
             bindings = <&kp BKSP>;
         };
         combo_ret {
-            timeout-ms = <15>;
+            timeout-ms = <20>;
             key-positions = <36 37>;
             bindings = <&kp RET>;
         };
